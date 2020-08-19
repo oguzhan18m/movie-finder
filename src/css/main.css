@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.movie-poster {
+  height: 40vh;
+  border-radius: 3px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+.movies-card {
+  height: 50vh;
+  margin-bottom: 1rem;
+}
+
+.movies-card .movie-title {
+  margin-top: 1rem;
+  color: #00a2ff;
+}
+
+.movies-card .movie-title:hover {
+  color: rebeccapurple;
+}
+
+.movies-card .movie-title-link {
+  color: #00a2ff;
+}
+
+.movies-card .movie-title-link:hover {
+  color: rebeccapurple;
+}
+
+.movies-card .movie-title-year {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #888484;
+}
+
+.movies-card .movie-title-type {
+  font-weight: 700;
+}
+
+.single-card {
+  height: 120vh;
+  margin: 2rem 2rem;
+}
+
+.single-card .header {
+  color: #464646;
+  margin: 2rem 0;
+  text-decoration: underline;
+}
+
+.single-card .movie-poster-single {
+  height: 85vh;
+  position: absolute;
+  border-radius: 3px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+.single-card .right {
+  margin-top: 1rem;
+}
+
+.single-card .right .details-title {
+  font-size: 60px;
+  margin-bottom: 3rem;
+}
+
+.single-card .right .text-subtitle {
+  color: #888484 !important;
+  margin: 1rem 0;
+}
+
+.single-card .right .bolder {
+  font-weight: 700;
+  color: black;
+}
+
+.single-card .right .badge {
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=main.css.map */
